@@ -22,7 +22,14 @@ module.exports = {
           // These are the specific transformations we'll be using.
           presets: ["react", "es2015"]
         }
-      }
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loaders: [
+          'file?hash=sha512&digest=hex&name=[hash].[ext]',
+          'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+        ]
+      } 
     ]
   },
   // This lets us debug our react code in chrome dev tools. Errors will have lines and file names
