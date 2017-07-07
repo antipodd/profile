@@ -31,11 +31,11 @@ class Projects extends React.Component{
 						</div>
 											
 						<div className="col-md-4">
-							<img className="project-img" src="assets/img/mario_2.png" alt="super-mario" data-toggle="collapse" data-target="#super-mario" data-parent="#projects" />
+							<Link to="/Projects/Hangman#scroll_here"><img className="project-img" src="assets/img/mario_2.png" alt="super-mario" data-toggle="collapse" data-target="#super-mario" data-parent="#projects" /></Link>
 						</div>
 
 						<div className="col-md-4">
-							<img className="project-img" src="assets/img/bestb4_2.png" alt="bestb4" data-toggle="collapse" data-target="#bestb4" data-parent="#projects" />
+							<Link to="/Projects/BestB4#scroll_here"><img className="project-img" src="assets/img/bestb4_2.png" alt="bestb4" data-toggle="collapse" data-target="#bestb4" data-parent="#projects" /></Link>
 						</div>
 						<div className="accordian-group">
 							<div id="trivia-project" className="collapse">

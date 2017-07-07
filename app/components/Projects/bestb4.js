@@ -13,11 +13,21 @@ class BestB4 extends React.Component{
 
 	}
 
+	componentDidMount() {
+	    let hash = this.props.location.hash.replace('#', '');
+	    if (hash) {
+	        let node = ReactDOM.findDOMNode(this.refs[hash]);
+	        if (node) {
+	            node.scrollIntoView();
+	        }
+	    }
+	}
+
 	render() {
 		return (
 			<div className="container">
 				<div className="jumbotron">
-					<h1 className="text-center"> Best B4 </h1>
+					<h1 ref="scroll_here" className="text-center"> Best B4 </h1>
 					
 				</div>
 				
