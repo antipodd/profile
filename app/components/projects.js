@@ -27,7 +27,7 @@ class Projects extends React.Component{
 				<div id="projects">
 					<div className="row">
 						<div className="col-md-4">
-							<Link to="/Projects/Trivia"><img className="project-img" src="assets/img/TNG_trivia_2.png" alt="Star-Trek-Trivia" /></Link>
+							<Link to="/Projects/Trivia#scroll_here"><img className="project-img" src="assets/img/TNG_trivia_2.png" alt="Star-Trek-Trivia" /></Link>
 						</div>
 											
 						<div className="col-md-4">

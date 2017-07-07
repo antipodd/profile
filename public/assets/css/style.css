@@ -35,3 +35,7 @@ body {
 .row-m-t{
   margin-top : 20px
 }
+
+.screenshot {
+  width: 100%;
+}
