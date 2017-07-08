@@ -26,14 +26,13 @@ export default (
     	<Route path="/" component={Main}>
 	    	<Route path="About" component={About} />
 	    	<Route path="Projects" component={Projects}>
-	    		<Route path="Trivia" component={Trivia} />
+	    		  <Route path="Trivia" component={Trivia} />
         		<Route path="Hangman" component={Hangman} />
         		<Route path="BestB4" component={BestB4} />
         		<Route path="Friend" component={Friend} />
         		<Route path="Tutor" component={Tutor} />
         		<Route path="NYT" component={NYT} />
-        		
-      		</Route>
+      	</Route>
 	    	<Route path="Publications" component={Publications} />
 	    	<Route path="Contact" component={Contact} /> 
      

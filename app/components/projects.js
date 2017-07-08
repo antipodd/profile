@@ -16,7 +16,7 @@ class Projects extends React.Component{
 		
 
 	}
-
+	/*dont link as children, load as elements on the page and set anchor tags*/
 	render() {
 		return (
 			<div className="container">

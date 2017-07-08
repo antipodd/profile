@@ -15,6 +15,7 @@ class Trivia extends React.Component{
 	}
 
 	componentDidMount() {
+		console.log("I'm here")
 	    let hash = this.props.location.hash.replace('#', '');
 	    if (hash) {
 	        let node = ReactDOM.findDOMNode(this.refs[hash]);
