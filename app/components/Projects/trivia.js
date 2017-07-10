@@ -14,16 +14,7 @@ class Trivia extends React.Component{
 
 	}
 
-	componentDidMount() {
-		console.log("I'm here")
-	    let hash = this.props.location.hash.replace('#', '');
-	    if (hash) {
-	        let node = ReactDOM.findDOMNode(this.refs[hash]);
-	        if (node) {
-	            node.scrollIntoView();
-	        }
-	    }
-	}
+	
 
 	render() {
 		return (
@@ -31,8 +22,9 @@ class Trivia extends React.Component{
 				<br/>
 				<hr/>
 				<br/>
-				<div className="jumbotron">
-					<h1 ref="scroll_here" className="text-center"> Star Trek Trivia </h1>
+				<div className="jumbotron" ref={this.props.refProp}>
+					<button onClick={this.props.top} className="btn btn-primary btn-lg back-to-top" title="Click to return on the top page"><span className="glyphicon glyphicon-chevron-up"></span></button>
+					<h1 className="text-center"> Star Trek Trivia </h1>
 					<p className="lead text-center"><a href="https://github.com/antipodd/TriviaGame" target="_blank" > Github </a></p>
 					<p className="lead text-center"><a href="https://infinite-brushlands-92040.herokuapp.com" target="_blank"> Play Star Trek Trivia! </a></p> 
 					
