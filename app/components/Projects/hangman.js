@@ -34,6 +34,23 @@ class Hangman extends React.Component{
 					<h1 ref="scroll_here" className="text-center"> Super Mario Hangman </h1>
 					
 				</div>
+
+				<div className="row">
+					<div className="col-md-6">
+						<img className="screenshot" src="assets/img/mario_4.png" />
+					</div>
+					<div className="col-md-6">
+						<h3><a href="https://antipodd.github.io/Hangman-Game/" target="_blank"> Play Super Mario Hangman</a></h3>
+						<p className="project-text">This app was created using:</p>
+							<ul className="project-text">
+								<li>HTML <img className="icon" src="assets/img/html5.png"/></li>
+								<li>CSS <img className="icon" src="assets/img/css3.png"/></li>
+								<li>JavaScript <img className="icon" src="assets/img/javascript.png"/></li>
+							</ul>						
+						<p className="project-text">To play hangman and guess the characters from Super Mario <a href="https://antipodd.github.io/Hangman-Game/" target="_blank"> CLICK HERE </a> (turn the volume up!) or checkout the <a href="https://github.com/antipodd/Hangman-Game" target="_blank" >Github repository</a></p>
+
+					</div>
+				</div>
 				
 				
 			</div>
