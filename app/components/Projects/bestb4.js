@@ -49,7 +49,7 @@ class BestB4 extends React.Component{
 								<li>Firebase <img className="icon" src="assets/img/firebase.png"/></li>
 								<li>Google Maps <img className="icon" src="assets/img/maps.png"/></li>
 							</ul>
-						<p className="project-text">This app was created in collaboration with <a href="https://github.com/powerace"> Taniesha Robinson</a>, <a href="https://github.com/angelasanecki"> Angela Sanecki</a> and <a href="https://github.com/rnz269"> Rahul Nallappa</a></p>,						
+						<p className="project-text">This app was created in collaboration with <a href="https://github.com/powerace"> Taniesha Robinson</a>, <a href="https://github.com/angelasanecki"> Angela Sanecki</a> and <a href="https://github.com/rnz269"> Rahul Nallappa</a></p>						
 						<p className="project-text">Check out our app <a href="https://murmuring-brushlands-68254.herokuapp.com/" target="_blank"> here </a> or take a look at the <a href="https://github.com/antipodd/Recipe-Group-Project" target="_blank" >Github repository</a></p>
 
 					</div>
