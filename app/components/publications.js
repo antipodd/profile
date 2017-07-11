@@ -20,7 +20,7 @@ class Publications extends React.Component{
 					<h1 className="text-center"> Publications section </h1>
 					
 				</div>
-				<div className="row">
+				<div className="row publication">
 					<ol reversed>
 						<li>
 							<a href="http://pubs.rsc.org/en/Content/ArticleLanding/2017/CC/C7CC03345A#!divAbstract" target="_blank"><p><strong>Hartlieb, K.J.</strong>, Peters, A.W., Wang, T.C., Deria, P., Farha, O.K., Hupp, J.T., Stoddart, J.F. ‘Functionalised Cyclodextrin-based Metal-Organic Frameworks’, <em>Chem. Commun.</em>, <strong>2017</strong>, DOI: 10.1039/C7CC03345A.

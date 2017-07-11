@@ -3,10 +3,13 @@
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  height: 60px;
-  text-align: center;
+  /* padding: 1rem; */
+  background-color: #222222;
+  height: 300px;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 html {
@@ -46,4 +49,12 @@ body {
 
 .project-text {
   font-size: 20px;
+}
+
+.project-end {
+  padding-bottom: 250px;
+}
+
+.publication {
+  padding-bottom: 250px;
 }
