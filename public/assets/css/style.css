@@ -58,3 +58,26 @@ body {
 .publication {
   padding-bottom: 250px;
 }
+
+.footer-text {
+  display: inline;
+  padding-left: 10px;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-img {
+  width: 33%;
+  display: inline;
+  border-color: #ffffff;
+  border: solid;
+  border-width: 3px;
+  float: left; 
+  margin-right: 10px;
+}
+
+.footer-bio {
+  font-size: 16px;
+}
