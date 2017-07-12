@@ -24,7 +24,6 @@ class Contact extends React.Component{
 		console.log(this.state.name)
 		console.log(this.state.email)
 		console.log(this.state.message)
-		
 	}
 
 	validateEmail (value) {
@@ -35,56 +34,59 @@ class Contact extends React.Component{
 
 	render() {
 		return (
-			<div className="container">
-				<div className="jumbotron">
-					<h1 className="text-center"> Contact section </h1>
+			<div>
+				<div className="top-color">
+					<div className="page-title">
+						<h1 className="text-center"> Contact Karel </h1>
+					</div>
 				</div>
-				<div className="row contact">
-					<div className="col-md-12">
-						<form onSubmit={this.handleSubmit}>
-							<div className="form-group">
-								<label htmlFor="name">Full Name</label>
-								<br />
-								<input 
-									className="form-control"
-									value={this.state.name} // input is now a controlled component, value set by state
-									name="name"
-									
-									onChange={this.onChange}
-									required />
-							</div>
-							<div className="form-group">
-								<label htmlFor="email">Email</label>
-								<br />
-								<input 
-									className="form-control"
-									value={this.state.email} // input is now a controlled component, value set by state
-									name="email"
-									onChange={this.onChange}
-									
-									required />
-							</div>
-							<div className="form-group">
-								<label htmlFor="message">Message</label>
-								<br />
-								<textarea 
-									className="form-control"
-									value={this.state.message} // input is now a controlled component, value set by state
-									name="message"
-									rows="10"
-									onChange={this.onChange}
-									required />
-							</div>
-							<button 
-								type="submit"
-								className="btn btn-success btn-group-lg">
-								Submit
-							</button>
-							
-			  			</form>
-			  		</div>
-			  	</div>
-				
+				<div className="container">
+					<div className="row contact">
+						<div className="col-md-12">
+							<form onSubmit={this.handleSubmit}>
+								<div className="form-group">
+									<label htmlFor="name">Full Name</label>
+									<br />
+									<input 
+										className="form-control"
+										value={this.state.name} // input is now a controlled component, value set by state
+										name="name"
+										
+										onChange={this.onChange}
+										required />
+								</div>
+								<div className="form-group">
+									<label htmlFor="email">Email</label>
+									<br />
+									<input 
+										className="form-control"
+										value={this.state.email} // input is now a controlled component, value set by state
+										name="email"
+										onChange={this.onChange}
+										
+										required />
+								</div>
+								<div className="form-group">
+									<label htmlFor="message">Message</label>
+									<br />
+									<textarea 
+										className="form-control"
+										value={this.state.message} // input is now a controlled component, value set by state
+										name="message"
+										rows="10"
+										onChange={this.onChange}
+										required />
+								</div>
+								<button 
+									type="submit"
+									className="btn btn-success btn-group-lg">
+									Submit
+								</button>
+								
+				  			</form>
+				  		</div>
+				  	</div>
+				</div>
 			</div>
 		);
 	}

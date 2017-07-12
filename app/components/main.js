@@ -20,7 +20,24 @@ class Main extends React.Component{
 	render() {
 		return (
 			<div>
-				<nav className="navbar navbar-default">
+				<div className="top-color">
+					<div className="container">
+	            		<nav className="navbar">
+	                		<a className="navbar-brand" href="/"> 
+	                    
+	                		</a>
+	                		<ul className="nav nav-pills navbar-right nav-stuff">
+			                    <li><Link to="/About"><strong>About</strong></Link></li>
+						        <li><Link to="/Projects"><strong>Projects</strong></Link></li>
+						        <li><Link to="/Publications"><strong>Publications</strong></Link></li>
+						        <li><Link to="/Contact"><strong>Contact</strong></Link></li>
+			                </ul>
+	            		</nav>
+	        		</div>
+	        	</div>
+				    
+				    
+				{/*<nav className="navbar navbar-default">
 				  <div className="container-fluid">
 				    
 				    <div className="navbar-header">
@@ -45,7 +62,7 @@ class Main extends React.Component{
 				      </ul>
 				    </div>
 				  </div>
-				</nav>
+				</nav>*/}
 				<div className="row">
           			{this.props.children}
         		</div>
