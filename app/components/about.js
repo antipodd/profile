@@ -5,13 +5,19 @@
 // *** Dependencies
 // =============================================================
 import React from "react"
+import helpers from "../utils/helpers"
 
 class About extends React.Component{
 	constructor(props) {
 		super(props); 
-		
+		/*this.handleClick = this.handleClick.bind(this)*/
 
 	}
+
+	/*handleClick() {
+		helpers.download()
+			.then((result) => {})
+	}*/
 
 	render() {
 		return (
@@ -30,6 +36,8 @@ class About extends React.Component{
 		              		</p>
 
 		              		<p>I enrolled in the Northwestern Coding Bootcamp in order to pursue a different career path, and I am enjoying the challenge of learning something completely new to me. In the little spare time I have at the moment I enjoy gaming (especially Fallout and Elder Scrolls builds, and JRPGs) listening to and playing music, jogging, and hacking my way around a golf course.</p>
+		              		<a className="btn btn-primary btn-lg" href="/download">Click to download Karel's resume</a>
+		              		{/*<button type="button" className="btn btn-primary btn-lg" onClick={this.handleClick}>Click to download Karel's resume</button>*/}
 		              	</div>
 		              	
 		            </div>
