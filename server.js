@@ -8,11 +8,16 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const logger = require("morgan");
 const mongoose = require("mongoose");
+const nodemailer = require("nodemailer");
 
 // =============================================================
 // *** Import Models
 // =============================================================
 
+
+// =============================================================
+// *** Setup Nodemailer
+// =============================================================
 
 
 // =============================================================
@@ -62,11 +67,8 @@ app.use(express.static(process.cwd() + "/public"));
 // =============================================================
 // *** Import and use Routes
 // =============================================================
-
-
-  
-  
-  
+const mailerRoute = require("./controllers/nodemailer.js");
+app.use("/", mailerRoute);  
 
 // =============================================================
 // *** Express port listener
