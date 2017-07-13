@@ -18,14 +18,7 @@ const nodemailer = require("nodemailer");
 // =============================================================
 // *** Setup Nodemailer
 // =============================================================
-const smtpTransport = nodemailer.createTransport({
-    service: "gmail",
-    host: "smtp.gmail.com",
-    auth: {
-        user: process.env.EMAILUSER,
-        pass: process.env.PASS
-    }
-});
+
 
 // =============================================================
 // *** Set mongoose to leverage built in JavaScript ES6 Promises

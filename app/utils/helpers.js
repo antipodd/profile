@@ -16,7 +16,7 @@ const helpers = {
 	sendMail (message) {
 		//console.log(article)
 		console.log(message.name, message.email, message.text)
-		return axios.get("/message", message)
+		return axios.post("/message", message)
 	}
 
 }
