@@ -8,12 +8,24 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const logger = require("morgan");
 const mongoose = require("mongoose");
+const nodemailer = require("nodemailer");
 
 // =============================================================
 // *** Import Models
 // =============================================================
 
 
+// =============================================================
+// *** Setup Nodemailer
+// =============================================================
+const smtpTransport = nodemailer.createTransport({
+    service: "gmail",
+    host: "smtp.gmail.com",
+    auth: {
+        user: process.env.EMAILUSER,
+        pass: process.env.PASS
+    }
+});
 
 // =============================================================
 // *** Set mongoose to leverage built in JavaScript ES6 Promises
@@ -62,11 +74,8 @@ app.use(express.static(process.cwd() + "/public"));
 // =============================================================
 // *** Import and use Routes
 // =============================================================
-
-
-  
-  
-  
+const mailerRoute = require("./controllers/nodemailer.js");
+app.use("/", mailerRoute);  
 
 // =============================================================
 // *** Express port listener
