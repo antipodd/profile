@@ -10,6 +10,7 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const nodemailer = require("nodemailer");
 
+
 // =============================================================
 // *** Import Models
 // =============================================================
@@ -69,6 +70,8 @@ app.use(express.static(process.cwd() + "/public"));
 // =============================================================
 const mailerRoute = require("./controllers/nodemailer.js");
 app.use("/", mailerRoute);  
+const download = require("./controllers/download.js");
+app.use("/", download); 
 
 // =============================================================
 // *** Express port listener
