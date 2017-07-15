@@ -5,7 +5,7 @@
 // *** Dependencies
 // =============================================================
 import axios from "axios";
-import FileDownload from "react-file-download" 
+/*import FileDownload from "react-file-download" */
 
 // ******************************************************************************
 // *** Helper functions 
