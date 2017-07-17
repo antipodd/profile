@@ -15,7 +15,7 @@ import Tutor from "../components/Projects/tutor"
 import NYT from "../components/Projects/nyt"
 
 //const tng = require("file-loader!../../public/assets/img/TNG_trivia_2.png")
-
+// should just have one projects component and have all the data stored in JSON
 class Projects extends React.Component{
 	constructor(props) {
 		super(props);
