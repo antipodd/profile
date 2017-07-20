@@ -1,0 +1,46 @@
+[
+  {   
+    "projectTitle": "Star Trek Trivia",
+    "img": "assets/img/TNG_trivia_3.png",
+    "url": "https://infinite-brushlands-92040.herokuapp.com",
+    "urlText":"Play Star Trek Trivia with an LCARS Interface!",
+    "pTextOne":"This app was created using:",
+    "tools":  [
+                {
+                  "tool": "HTML",
+                  "icon": "assets/img/html5.png"
+                },
+                {
+                  "tool": "CSS",
+                  "icon": "assets/img/css3.png"
+                },
+                {
+                  "tool": "JavaScript/jQuery",
+                  "icon": "assets/img/javascript.png"
+                }
+              ],
+    "pTextTwo":"and the LCARS framework was obtained from <a href='https://github.com/Garrett-/lcars' target='_blank'>this repository</a>",
+    "pTextThree":"If you know your Star Trek then play the game <a href='https://infinite-brushlands-92040.herokuapp.com' target='_blank'>here</a> or checkout the <a href='https://github.com/antipodd/TriviaGame' target='_blank' >Github repository</a>"
+  },
+
+  {
+    
+  },
+
+  {
+    
+  },
+  
+  {
+    
+  },
+  
+  {
+    
+  },
+
+  {
+    
+  }
+
+]
