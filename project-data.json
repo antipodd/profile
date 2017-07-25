@@ -67,6 +67,10 @@
                   "icon": "assets/img/bootstrap.png"
                 },
                 {
+                  "tool": "JavaScript/jQuery",
+                  "icon": "assets/img/javascript.png"
+                },
+                {
                   "tool": "Firebase",
                   "icon": "assets/img/firebase.png"
                 },
@@ -80,7 +84,31 @@
   },
   
   {
-    
+    "projectTitle": "Friend Finder",
+    "img": "assets/img/friend_5.png",
+    "url": "https://infinite-reaches-57831.herokuapp.com/",
+    "urlText":"Find out who you'd hang out with in Pawnee",
+    "pTextOne":"This is a full-stack app created using:",
+    "tools":  [
+                {
+                  "tool": "HTML",
+                  "icon": "assets/img/html5.png"
+                },
+                {
+                  "tool": "CSS",
+                  "icon": "assets/img/css3.png"
+                },
+                {
+                  "tool": "JavaScript/jQuery",
+                  "icon": "assets/img/javascript.png"
+                },               
+                {
+                  "tool": "Node.js/Express",
+                  "icon": "assets/img/node.png"
+                }
+              ],
+    "pTextTwo":"Parks and Rec character data is stored in JSON and a user answers questions to find out who they are most compatible with.  The data entered by the user is saved and is compared to future users.<a href='https://infinite-reaches-57831.herokuapp.com/' target='_blank'> CLICK HERE </a> to take the test or checkout the <a href='https://github.com/antipodd/FriendFinder' target='_blank' >Github repository here</a>",
+    "pTextThree":""
   },
   
   {
