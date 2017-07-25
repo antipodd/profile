@@ -148,7 +148,43 @@
   },
 
   {
-    
+    "projectTitle": "NYT React App",
+    "img": "assets/img/nyt_2.png",
+    "url": "https://sleepy-journey-51097.herokuapp.com/",
+    "urlText":"Search the New York Times and save articles of interest",
+    "pTextOne":"This is a MERN app created using:",
+    "tools":  [
+                {
+                  "tool": "HTML",
+                  "icon": "assets/img/html5.png"
+                },
+                {
+                  "tool": "CSS",
+                  "icon": "assets/img/css3.png"
+                },
+                {
+                  "tool": "JavaScript/jQuery",
+                  "icon": "assets/img/javascript.png"
+                },               
+                {
+                  "tool": "Node.js/Express",
+                  "icon": "assets/img/node.png"
+                },
+                {
+                  "tool": "React",
+                  "icon": "assets/img/react.png"
+                }, 
+                {
+                  "tool": "MongoDB/Mongoose",
+                  "icon": "assets/img/mongodb.jpg"
+                }, 
+                {
+                  "tool": "Axios",
+                  "icon": ""
+                }
+              ],
+    "pTextTwo":"This app allows a user to search for articles using keywords within specified years by calling the NYT API.  The user can choose to save these articles to a MongoDB as well as delete any previously saved articles.",
+    "pTextThree":"View the app <a href='https://sleepy-journey-51097.herokuapp.com/' target='_blank' > here</a> or checkout the <a href='https://github.com/antipodd/nytreact' target='_blank' >Github repository</a>"
   }
 
 ]
