@@ -79,7 +79,7 @@
                   "icon": "assets/img/maps.png"
                 }
               ],
-    "pTextTwo":"This app was created in collaboration with <a href='https://github.com/powerace'> Taniesha Robinson</a>, <a href='https://github.com/angelasanecki'> Angela Sanecki</a> and <a href='https://github.com/rnz269'> Rahul Nallappa</a>",
+    "pTextTwo":"This app was created in collaboration with <a href='https://github.com/powerace' target='_blank'> Taniesha Robinson</a>, <a href='https://github.com/angelasanecki' target='_blank'> Angela Sanecki</a> and <a href='https://github.com/rnz269' target='_blank'> Rahul Nallappa</a>",
     "pTextThree":"Check out our app <a href='https://murmuring-brushlands-68254.herokuapp.com/' target='_blank'> here </a> or take a look at the <a href='https://github.com/antipodd/Recipe-Group-Project' target='_blank' >Github repository</a>"
   },
   
@@ -112,7 +112,39 @@
   },
   
   {
-    
+    "projectTitle": "Tutor Karma",
+    "img": "assets/img/tutor_2.png",
+    "url": "https://github.com/antipodd/tutorKarma",
+    "urlText":"Book a tutor with the TutorKarma app!",
+    "pTextOne":"This is a full-stack app created using:",
+    "tools":  [
+                {
+                  "tool": "HTML",
+                  "icon": "assets/img/html5.png"
+                },
+                {
+                  "tool": "CSS",
+                  "icon": "assets/img/css3.png"
+                },
+                {
+                  "tool": "JavaScript/jQuery",
+                  "icon": "assets/img/javascript.png"
+                },               
+                {
+                  "tool": "Node.js/Express",
+                  "icon": "assets/img/node.png"
+                },
+                {
+                  "tool": "Handlebars.js",
+                  "icon": "assets/img/handlebars.png"
+                },  
+                {
+                  "tool": "MySQL/Sequelize",
+                  "icon": "assets/img/mysql.png"
+                }
+              ],
+    "pTextTwo":"This app was created in collaboration with <a href='https://github.com/mstorino' target='_blank'> Maggie Storino</a>, <a href='https://github.com/angelasanecki' target='_blank'> Angela Sanecki</a>, <a href='https://github.com/AlitaKendrick' target='_blank'> Alita Kendrick</a> and <a href='https://github.com/rnz269' target='_blank'> Rahul Nallappa</a>",
+    "pTextThree":"View the <a href='https://github.com/antipodd/tutorKarma' target='_blank' >Github repository here</a>"
   },
 
   {
