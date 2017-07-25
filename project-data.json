@@ -24,7 +24,27 @@
   },
 
   {
-    
+    "projectTitle": "Super Mario Hangman",
+    "img": "assets/img/mario_4.png",
+    "url": "https://antipodd.github.io/Hangman-Game/",
+    "urlText":"Play Super Mario Hangman",
+    "pTextOne":"This app was created using:",
+    "tools":  [
+                {
+                  "tool": "HTML",
+                  "icon": "assets/img/html5.png"
+                },
+                {
+                  "tool": "CSS",
+                  "icon": "assets/img/css3.png"
+                },
+                {
+                  "tool": "JavaScript/jQuery",
+                  "icon": "assets/img/javascript.png"
+                }
+              ],
+    "pTextTwo":"To play hangman and guess the characters from Super Mario <a href='https://antipodd.github.io/Hangman-Game/' target='_blank'> CLICK HERE </a> (turn the volume up!) or checkout the <a href='https://github.com/antipodd/Hangman-Game' target='_blank' >Github repository</a>",
+    "pTextThree":""
   },
 
   {
