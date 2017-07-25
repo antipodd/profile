@@ -48,7 +48,35 @@
   },
 
   {
-    
+    "projectTitle": "Best B4",
+    "img": "assets/img/bestb4_3.png",
+    "url": "https://murmuring-brushlands-68254.herokuapp.com/",
+    "urlText":"Use leftover ingredients to make delicious meals or donate your food to charity!",
+    "pTextOne":"This app was created in order to search for recipes using ingredients you have so that food does not go to waste.  A user can create an account and search for and save recipes.  Additionally, we have integrated the Google Maps API so that the user can find a location to donate any ingredients they have to nearby food shelters. <br /> This app was created using:",
+    "tools":  [
+                {
+                  "tool": "HTML",
+                  "icon": "assets/img/html5.png"
+                },
+                {
+                  "tool": "CSS",
+                  "icon": "assets/img/css3.png"
+                },
+                {
+                  "tool": "Bootstrap",
+                  "icon": "assets/img/bootstrap.png"
+                },
+                {
+                  "tool": "Firebase",
+                  "icon": "assets/img/firebase.png"
+                },
+                {
+                  "tool": "Google Maps",
+                  "icon": "assets/img/maps.png"
+                }
+              ],
+    "pTextTwo":"This app was created in collaboration with <a href='https://github.com/powerace'> Taniesha Robinson</a>, <a href='https://github.com/angelasanecki'> Angela Sanecki</a> and <a href='https://github.com/rnz269'> Rahul Nallappa</a>",
+    "pTextThree":"Check out our app <a href='https://murmuring-brushlands-68254.herokuapp.com/' target='_blank'> here </a> or take a look at the <a href='https://github.com/antipodd/Recipe-Group-Project' target='_blank' >Github repository</a>"
   },
   
   {
