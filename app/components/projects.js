@@ -13,6 +13,7 @@ import BestB4 from "../components/Projects/bestb4"
 import Friend from "../components/Projects/friend"
 import Tutor from "../components/Projects/tutor"
 import NYT from "../components/Projects/nyt"
+import ProjectData from "../../project-data.json"
 
 //const tng = require("file-loader!../../public/assets/img/TNG_trivia_2.png")
 // should just have one projects component and have all the data stored in JSON
@@ -40,6 +41,7 @@ class Projects extends React.Component{
 		this.onMouseOut5 = this.onMouseOut5.bind(this);
 		this.onMouseOver6 = this.onMouseOver6.bind(this);
 		this.onMouseOut6 = this.onMouseOut6.bind(this);
+		this.generateProjectData = this.generateProjectData.bind(this);
 	}
 
 	scrollToTop () {
@@ -150,6 +152,14 @@ class Projects extends React.Component{
       	this.setState({ hovered6:false });
     }
 
+    generateProjectData(project) {
+    	/*return project.map((data) => {
+    		return (
+    			<h1 className="text-center"> {data.projectTitle} </h1>
+				)})*/
+		console.log(JSON.stringify(project))
+    }
+
 
 	/*dont link as children, load as elements on the page and set anchor tags*/
 	render() {
@@ -161,6 +171,7 @@ class Projects extends React.Component{
 				<div className="top-color">
 					<div className="page-title">
 						<h1 className="text-center"> Projects </h1>
+						{console.log(ProjectData)}
 					</div>
 				</div>
 				<div className="container">
@@ -239,6 +250,7 @@ class Projects extends React.Component{
 						
 					</div>				
 				</div>
+			
 			</div>
 		);
 	}
