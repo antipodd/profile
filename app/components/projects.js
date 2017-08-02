@@ -168,15 +168,18 @@ class Projects extends React.Component{
 						<div className="row">
 							<div className="col-md-4" onClick={() => this.onClickHandler(this.trivia)}>
 								<img className="project-img" src="assets/img/TNG_trivia_2.png" alt="Star-Trek-Trivia" onMouseOver={this.onMouseOver1} onMouseOut={this.onMouseOut1} style={this.style1()} />
+								<h3 className="text-center"> Star Trek Trivia </h3>
 							</div>			
 							<div className="col-md-4" onClick={() => this.onClickHandler(this.hangman)}>
 								<img className="project-img" src="assets/img/mario_2.png" alt="super-mario" onMouseOver={this.onMouseOver2} onMouseOut={this.onMouseOut2} style={this.style2()}/>
+								<h3 className="text-center"> Super Mario Hangman </h3>
 							</div>
 							<div className="col-md-4" onClick={() => this.onClickHandler(this.bestb4)}>
 								<img className="project-img" src="assets/img/bestb4_2.png" alt="bestb4" onMouseOver={this.onMouseOver3} onMouseOut={this.onMouseOut3} style={this.style3()}/>
+								<h3 className="text-center"> Best B4 </h3>
 							</div>
 						</div>
-						<div className="row row-m-t">
+						{/*<div className="row row-m-t">
 							<div className="col-md-4">
 								<h3 className="text-center" onClick={() => this.onClickHandler(this.trivia)}> Star Trek Trivia </h3>
 							</div>
@@ -186,20 +189,23 @@ class Projects extends React.Component{
 							<div className="col-md-4">
 								<h3 className="text-center" onClick={() => this.onClickHandler(this.bestb4)}> Best B4 </h3>
 							</div>
-						</div>
+						</div>*/}
 
 						<div className="row row-m-t">
 							<div className="col-md-4" onClick={() => this.onClickHandler(this.friend)}>
 								<img className="project-img" src="assets/img/friend_3.png" alt="Pawnee-friend-finder" onMouseOver={this.onMouseOver4} onMouseOut={this.onMouseOut4} style={this.style4()}/>
+								<h3 className="text-center"> Friend Finder </h3>
 							</div>
 							<div className="col-md-4" onClick={() => this.onClickHandler(this.tutor)}>
 								<img className="project-img" src="assets/img/tutor_2.png" alt="tutor-karma" onMouseOver={this.onMouseOver5} onMouseOut={this.onMouseOut5} style={this.style5()}/>
+								<h3 className="text-center"> Tutor Karma </h3>
 							</div>
 							<div className="col-md-4" onClick={() => this.onClickHandler(this.nyt)}>
 								<img className="project-img" src="assets/img/nyt_2.png" alt="nyt-react-app" onMouseOver={this.onMouseOver6} onMouseOut={this.onMouseOut6} style={this.style6()}/>
+								<h3 className="text-center"> New York Times React App </h3>
 							</div>
 						</div>
-						<div className="row row-m-t">
+						{/*<div className="row row-m-t">
 							<div className="col-md-4">
 								<h3 className="text-center" onClick={() => this.onClickHandler(this.trivia)}> Friend Finder </h3>
 							</div>
@@ -209,7 +215,7 @@ class Projects extends React.Component{
 							<div className="col-md-4">
 								<h3 className="text-center" onClick={() => this.onClickHandler(this.bestb4)}> New York Times React App </h3>
 							</div>
-						</div>
+						</div>*/}
 
 						<Trivia refProp={(trivia) => {
 							this.trivia = trivia;
